@@ -14,6 +14,25 @@
 
 <body>
   <div class="wrapper">
+    <div class="description">
+      <h1>Всем привет!</h1>
+      <h5>
+        Эта библиотека может пригодиться тебе в случае проверки корректности ввода данных в поле <b>input</b>. Например
+        поле: имя, email, номер телефона...библиотека будет развиваться.<br> <br>
+        Для того чтобы воспользоваться библиотекой её необходимо подключить. <br>
+        <a href="https://egorik11.github.io/Validation-Form/validation.js">ссылка для подлкючения</a> <br>
+        <a href="https://github.com/Egorik11/Validation-Form/blob/main/validation.js">исходный код на
+          GitHub</a> <br><br>
+        Например функция <b>validationName()</b> принимает в качестве параметра поле <b>input userName</b> и возвращает
+        <b>true || false</b> <br><br>
+      </h5>
+
+      <h6>
+        <b>validationName(userName)</b> - проверяет поле с именем пользователя <br><br>
+        <b>validationEmail(userEmail)</b> - проверяет поле с почтой пользователя <br><br>
+        <b>validationNumberPhone(userPhone)</b> - проверяет поле с номером телефона пользователя
+      </h6>
+    </div>
     <div class="main_block">
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">Username</span>
@@ -30,10 +49,11 @@
       <div class="input-group mb-3">
         <input id="numberPhone" type="text" class="form-control" placeholder="Number phone" aria-label="Number phone"
           aria-describedby="basic-addon2">
-        <span class="input-group-text" id="basic-addon2">Number phone</span>
+        <span class="input-group-text" id="basic-addon3">Number phone</span>
       </div>
     </div>
   </div>
+
   <script src="main.js"></script>
 </body>
 
