@@ -1,0 +1,13 @@
+.wrapper{
+  width: 100%;
+}
+
+.main_block{
+  padding:4% 0 0;
+  width: 600px;
+  margin:0 auto;
+}
+
+.border_red{
+  border: 1px solid red;
+}
